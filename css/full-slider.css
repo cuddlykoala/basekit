@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/*font-family: 'Fjalla One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans', sans-serif;*/
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/*      NAVBAR STYLES          */
+
+.navbar-nav {
+  margin: 7.5px -15px;
+  height: 80px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.navbar-nav li {
+    padding: 15px 0;
+}
+
+.navbar-nav li:first-child a{
+    border-left: none;
+}
+
+.navbar-nav>li>a {
+  padding: 0px;
+  line-height: 40px;
+  font-size: 32px;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  border-left: 10px solid #fff;
+  padding-left: 24px;
+  margin-left: 24px;
+}
+
+.navbar-inverse {
+  background-color: #010101;
+  border-color: #080808;
+  opacity: 0.85;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  position: absolute;
+  left: 40%;
+  top: -5px;
+}
+
+.navbar-brand>img {
+  display: block;
+  width: 280px;
+}
+
+/*      END NAVBAR STYLES       */
+
+/*      CAROUSEL STYLES AND EFFECTS     */
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid rgba(255,255,255,0.8);
+   border-radius: 0px; 
+}
+
+
+
+/*      END CAROUSEL STYLES AND EFFECTS     */

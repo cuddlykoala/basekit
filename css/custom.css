@@ -1,0 +1,40 @@
+@heading Font;
+@copy Font;
+body {
+  -webkit-overflow-scrolling: touch;
+}
+.jumbotron {
+  overflow: hidden;
+}
+#footer_wrapper {
+  position: relative;
+  bottom: 0;
+}
+/*        END OF NEWS AND EVENTS PAGE       */
+/* ----------- LG - Large Screens - Desktop/Laptop  ------------ */
+/* ----------- MD - Medium Screens - Laptops  ------------ */
+/* ----------- SM - Small Screens - Tablets/Laptops  ------------ */
+/* -----------  XS - Large Phones - Small Tablets ------------ */
+/* ----------- XXS - iPhones/Androids/Blackberrys  ------------ */
+/* -------------- Custom Responsive Elements ------------------ */
+.navbar-brand {
+  /*@media (min-width: 1680px) {
+    left: 43%;
+  }
+
+  @media (min-width: 1560px) and (max-width: 1679px) {
+    left: 41%;
+  }
+
+  @media (min-width: 1400px) and (max-width: 1559px) {
+    left: 40%;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    left: 39%;
+  }
+
+  @media (min-width: 1060px) and (max-width: 1199px) {
+    left: 39%;
+  }*/
+}
